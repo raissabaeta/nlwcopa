@@ -32,10 +32,17 @@ header {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: #f7dd40;
+}
 
 #cards {
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     gap: 32px;
 }
 .card {
@@ -60,6 +67,13 @@ header {
     margin-bottom: 53px;
 
     color:#F7DD43
+}
+
+.card h2 a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .card h2 span {
